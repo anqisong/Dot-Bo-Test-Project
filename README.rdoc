@@ -1,0 +1,14 @@
+== README
+
+This is a web application built on Ruby on Rails; it uses the easypost API to implement a web page where a user can print a USPS shipping label.
+
+Choice of language: my past experience with web development is only limited to HTML/CSS, and neither java nor python is suitable for web applications, so after some research, I chose Ruby on Rails and finished this project following beginners tutorials online and open source projects on github.
+
+Assumption of purpose: during the interview, I learned that Dot&Bo runs a business-to-customer type e-commerce and it plays the role of an intermediate party. Therefore, on the one hand the customer could use this application to return furnitures to dot&bo; on the other hand the furniture company may also use this web application to mail furnitures to dot&bo and dot&bo may use this application to mail furnitures to customers.
+
+Design:
+    Inputs:
+        - from address and destination address
+        - package attributes
+    Outputs:
+        - a usps shipping label suitable for printing
